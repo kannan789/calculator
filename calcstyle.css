@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+body,html{
+    height:100%;
+    padding:0;
+    margin:0;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.calculator{
+    width:300px;
+    height:420px;
+    border:2px solid black;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    box-shadow:5px 3px  slategrey;
+    background-color:gray;
+}
+.result{
+    width:90%;
+    background-color: white;
+    height:50px;
+    margin:15px 5px 0 10px;
+    text-align: right;
+    line-height: 45px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family:  sans-serif;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.buttons{
+    margin-top: 15px;
+    margin-left:-15px;
+}
+li{
+    height:50px;
+    width:50px;
+    float:left;
+    list-style-type: none;
+    border:2px solid black;
+    text-align: center;
+    margin:5px;
+    border-radius: 5px;
+    background-color: lightsteelblue;
+    box-shadow: 5px 3px  slategrey;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 50px;
+    font-family:  sans-serif;
+    }
+li:active{
+    position: relative;
+    top:5px;
+}
+li:nth-child(16){
+    height:110px;
+    line-height: 100px;
+}
+li:last-child
+{
+    margin-top: -58px;
+    width:66%;
+}
+.signature{
+   float: right;
+   margin-right: 20px;
+   font-family: 'Exo', sans-serif;
+}
